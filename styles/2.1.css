@@ -1,0 +1,179 @@
+body {font-family: Arial;}
+h1 {
+    font-family: Verdana;
+    font-size: 32pt;
+    text-align: center;
+}
+
+p {font-size: 14pt;}
+
+ul {
+    font-size: 14pt;
+    list-style-type: square;
+}
+
+address {text-align: right;
+margin-right: 5pc;}
+
+.italic {font-style: italic;}
+p.greeting { font-size: 24pt;}
+
+.picture img {width: 20%;}
+
+.picture {
+    text-align: center;
+    border-radius: 10px;
+}
+img {
+    border-radius: 20px;
+}
+
+li.greeting {font-style: italic;}
+
+table.catalog td {
+    border-bottom: rgb(0, 0, 0) thin dotted;
+    padding: 3pt;
+    text-align: center;}
+table.catalog img { width: 200px; }
+
+table.novosti img { width: 200px}
+table.novosti td { padding: 3pt;
+    padding: 30pt;;
+    border-radius: 20px;}
+
+.col2 { background-color: lightgrey; }
+.col3 { width: 300px; }
+
+table.price-list th, table.price-list td {
+    border: rgb(0, 0, 0) thin solid;
+    padding: 2pt;
+		text-align: center;
+}
+
+.uptable {background-color: rgb(255, 166, 0);
+border-radius: 20px;
+font-size: 30px;}
+.price {background-color: rgb(209, 209, 209);
+border-radius: 20px;
+font-size: 20px;}
+.tovar {background-color: rgb(255, 230, 0);
+border-radius: 20px;
+font-size: 25px;}
+.eda {background-color: rgb(255, 255, 255);
+border-radius: 20px;
+font-size: 20px;}
+
+form {margin-left: 20px;
+}
+
+.page-content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+main { margin-left: 300px; }
+nav {
+    flex-shrink: 0;
+    margin: 10px;
+    bottom: 100pt;
+}
+
+table.catalog {
+    flex-grow: 1;
+    width: auto;;
+    font-size: 40px;
+}
+table.catalog p {
+    font-size: 30px;
+}
+table.catalog img {
+    width: 300px;
+    height: auto;
+}
+
+.advertising {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+footer {background-color: rgb(255, 207, 104);
+border-radius: 10px;
+padding: 1pt;
+margin-top: 10pt;
+}
+header {background-color: rgb(255, 207, 104);
+border-radius: 10px;}
+main {background-color: rgba(255, 238, 0, 0.842);
+border-radius: 30px;
+padding: 5px;
+margin-top: 10px;
+margin-left: 300px;
+margin-right: 600px;
+padding-left: 50px;
+}
+nav {
+    background-color: rgb(255, 207, 104);
+    float: left;
+    width: 200px;
+    margin: 10px 0px 10px 10px;
+    padding: 30px;
+    border-radius: 20px;}
+nav div {
+    font-size: 30pt;
+    margin: 10px 5px;}
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.otzyvi {background-color:rgb(255, 207, 104) ;}
+.otzyvi {
+float: right;
+margin-right: 10pt;
+padding: 10pt;
+border-radius: 20px;
+margin-top: 10px;
+font-size: 20px;
+}
+
+.stars {background-color: rgb(255, 254, 206);
+border-radius: 20px;
+font-size: 20px;
+}
+
+@font-face {
+    font-family: 'J Audio Cassette';
+    src: url('../fonts/J Audio Cassette.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'J Audio Cassette', 'Arial', sans-serif;
+}
+.glavnaya {font-size: 2pc;}
+.zagolovok {font-size: 7pc;
+text-align: center;
+padding: 50pt;}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.ssylki {color: rgb(0, 0, 255);}
+.green-novosti {background-color: aquamarine;}
+.blu-novosti {background-color: rgb(126, 171, 255);}
+
+.novosti h2 {font-size: 40px;}
+.novosti h3 {font-size: 30px;}
+.novosti p {font-size: 25px;}
+.novosti li {font-size: 25px;}
+.novosti h4 {font-size: 20px;
+text-align: right;
+font-style: italic;}

@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+ <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+		<link rel="icon" href="/images/icon.png" type="image/icon">
+    <link rel="stylesheet" href="../styles/2.3.css">
+    <title>Йокогама: суши-бар</title>
+ </head>
+<body>
+	<header>
+	<h1 class="header1">Йокогама</h1>
+	<h1 class="header2">Заказ</h1>
+	</header>
+<nav>
+	<div><a href="/">Главная</a>
+	<a href="sushi.html">Суши</a>
+	<a href="rolly.html">Роллы</a>
+	<a href="sashimi.html">Сашими</a>
+	<a href="napitki.html">Напитки</a>
+	<a href="price-list.html">Прайс-лист</a>
+	<a href="order.html">Заказ</a></div>
+</nav>
+<div class="container">
+<div class="right-block">
+<table class="otzyvi">
+    <tbody>
+        <tr><th colspan="2" class="uptable">Отзывы</th></tr>
+        <tr>
+            <th class="tovar">Арина</th>
+            <td class="stars">⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td colspan="2">Классно</td>
+        </tr>
+
+        <tr>
+            <th class="tovar">Людмила</th>
+            <td class="stars">⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td colspan="2">Сайт супер, мне очень понравился. Приятно смотреть, благодарю создателя.</td>
+        </tr>
+
+        <tr>
+            <th class="tovar">Мурзик</th>
+            <td class="stars">⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td colspan="2">Оперативная доставка, роллы вкусные, сервис удобный</td>
+        </tr>
+
+        <!-- шаблон для нового отзыва:
+        <tr>
+            <th class="tovar">ИМЯ</th>
+            <td class="stars">⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td colspan="2">СООБЩЕНИЕ</td>
+        </tr>
+        -->
+
+        <tr>
+            <th colspan="2" class="ssylka">
+                <a href="list-otzyvi.html">Оставить свой отзыв</a>
+            </th>
+        </tr>
+    </tbody>
+</table>
+		<div class="citata">Цитата<br>
+		<q>🍣 Слово «суши» означает «кислый рис» — из-за уксуса, который добавляют в рис</q></div>
+		<div class="opros"><a href="opros.html">Опрос о качестве сайта</a></div>
+		<a href="https://arina.21chkt.ru/" class="contact"><img src="/images/arina.jpg">Партнер</a>
+		<a href="https://steamcommunity.com/id/N1xxxY" class="contact"><img src="/images/steam.jpg">Соцсети</a>
+		<br>
+	<div style="text-align:center; width:100%; margin-bottom: 20px;">
+	<div>
+	<a href="/">🏠</a>
+	<a href="/pages/sushi.html">🍣</a>
+	<a href="/pages/rolly.html">🍥</a>
+	<a href="/pages/sashimi.html">🐟</a>
+	<a href="/pages/napitki.html">🥤</a>
+	<a href="/pages/price-list.html">💲</a>
+	<a href="/pages/order.html">🚙</a></div>
+	</div>
+</div>
+	<main>
+		<h2>Заказ</h2>
+	<form action="https://formspree.io/f/mwvjawlv" method="POST">
+	<input type="hidden" name="_subject" value="Новый заказ">
+			<p>
+        <label for="name">Ваше имя?</label><br>
+        <input name="name" id="name" required>
+				<span></span>
+    </p>
+		<p>
+        <label for="dishes">Что закажете?</label><br>
+        <select name="eda" id="dishes" size="10" multiple required>
+            <optgroup label="Суши">
+                <option value="makidzusi">Макидзуси</option>
+                <option value="nigiridzusi">Нигиридзуси</option>
+                <option value="inaridzusi">Инаридзуси</option>
+								<option value="osidzusi">Осидзуси</option>
+            </optgroup>
+            <optgroup label="Роллы">
+                <option value="kaliforniya">Калифорния</option>
+                <option value="filadelfiya">Филадельфия</option>
+								<option value="dragon">Дракон</option>
+                <option value="canada">Канада</option>
+								<option value="alyaska">Аляска</option>
+                <option value="vulkan">Вулкан</option>
+            </optgroup>
+            <optgroup label="Сашими">
+                <option value="maguro">Магуро</option>
+                <option value="sake">Сакэ</option>
+                <option value="hamachi">Хамачи</option>
+								<option value="ebi">Эби</option>
+            </optgroup>
+            <optgroup label="Напитки">
+                <option value="apelsinoviy_sok">Апельсиновый сок</option>
+                <option value="ananasoviy_sok">Ананасовый сок</option>
+								<option value="smuzi">Смузи</option>
+                <option value="cold_tie">Холодный чай</option>
+								<option value="vinogradovaya_soda">Виноградная газировка</option>
+								<option value="Chay_s_artichtom">Чай с артишком</option>
+            </optgroup>
+        </select>
+				<span></span>
+    </p>
+		<p>
+			<fieldset>
+				<legend>Данные</legend>
+        <label for="phone">Ваш номер телефона:</label><br>
+        <input type="tel" name="phone" id="phone" required>
+				<span></span>
+    </p>
+		<p>
+    <label for="email">Ваш Email:</label><br>
+    <input type="email" name="email" id="email" required>
+				<span></span>
+		</p>
+	
+			</fieldset>
+		<p>
+				<fieldset class="upakovka">
+				<legend>Упаковка</legend>
+        <input type="radio" name="package" id="package1"
+               value="standard" checked>
+        <label for="package1">Стандартная</label><br>
+        <input type="radio" name="package" id="package2" 
+value="gift">
+        <label for="package2">Подарочная</label><br>
+        <input type="radio" name="package" id="package3" value="eco">
+        <label for="package3">Экологически чистая</label>
+    </p>
+				</fieldset><br>
+		<input type="checkbox" name="agree" value="yes"> Срочная доставка<br>
+		<br>
+		<fieldset>
+		<legend>Примечания</legend>
+		<textarea name="comments" cols="40" rows="8"> </textarea>
+		</fieldset>
+		<br>
+<button>
+    <h3>Заказать</h3>
+</button>
+<br>
+<br>
+</form>
+<br>
+<div style="text-align:center; width:100%;">
+	<a href="#" class="vverh">⬆ Наверх ⬆</a>
+</div>
+</main>
+</div>
+<footer>
+<address>
+		<p>&copy; 2026 Суши-бар Йокогама. Все права защищены.</p>
+		<p>Наш адрес: ул. Зеленая, 17.</p>
+		<a class="ssylki" href="https://yandex.ru/maps/20074/kanash/house/zelyonaya_ulitsa_17_1/YE4YcgFiTUwAQFtvfXlwc39hZg==/?ll=47.462497%2C55.512322&z=17.63"> Посмотреть на карте</a>
+</address>
+</footer>
+</body>
+</html>

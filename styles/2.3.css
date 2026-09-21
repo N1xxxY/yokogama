@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'J Audio Cassette';
+    src: url('../font/J Audio Cassette.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'J Audio Cassette', 'Arial', sans-serif;
+}
+@font-face {
+    font-family: 'Tetsubin Gothic';
+    src: url('../font/Tetsubin Gothic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.zagolovok {
+	text-align: center;
+}
+nav {
+	font-family: 'Tetsubin Gothic', 'Arial', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	border: 3px solid #b3ff87;
+	border-radius: 7pt;
+	margin-top: 20pt;
+	padding: 20px;
+	letter-spacing: -1pt;
+	background-color: #333333;
+	position: sticky; top: 0;
+}
+nav a {
+	margin: 0 10px;
+	color: #9dffb5;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+nav a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 0 0 25px rgb(255, 255, 255);
+}
+.ssylka a {
+	color: #333333;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+body {
+    background-image: 
+				repeating-linear-gradient(45deg, rgba(25, 255, 186, 0.678), rgba(77, 255, 181, 0.664) 10mm);
+    background-size: 100% 100%, 30px 30px;
+    background-blend-mode: overlay;
+}
+
+header { 
+    text-align: center;
+    font-family: 'Tetsubin Gothic', 'Arial', sans-serif;
+    font-size: 30px;
+		background-color: #333333;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-radius: 7px;
+		line-height: 0.3;
+		border: 3px solid #b3ff87;
+}
+.header1 {
+	text-align: center;
+	font-size: 90px;
+	color: #9dffb5;
+}
+.header2 {
+	text-align: center;
+	font-size: 30px;
+	color: #9dffb5;
+}
+main {
+		margin-top: 30px;
+		margin-right: 350px;
+    min-width: 300px;
+    padding: 30pt 20pt;
+    background: linear-gradient(135deg, #b6ffc8fd 0%, hsl(197, 100%, 79%) 100%);
+    border-radius: 10px;
+    box-shadow: 0 10px 50px rgba(0,0,0,0.3);
+}
+footer {
+	color: #9dffb5;
+	text-align: right;
+	background-color: #333333;
+	font-size: 15pt;
+	border: 3px solid #b3ff87;
+	border-radius: 7pt;
+	margin-top: 10pt;
+	padding-right: 50px;
+	box-shadow: 0 10px 50px rgba(0,0,0,0.3);
+}
+.otzyvi {
+		font-size: 17px;
+    padding: 10pt;
+    border-radius: 15px;
+    box-shadow: 0 10px 50px rgba(0,0,0,0.3);
+}
+div.container {
+ min-width: 900px;
+ max-width: 1300px;
+ margin-left: auto;
+ margin-right: auto
+}
+.right-block {
+	max-width: 300px;
+	font-size: 17px;
+	float: right;
+	padding: 10pt;
+	border-radius: 15px;
+	box-shadow: 0 10px 50px rgba(0,0,0,0.3);
+	background: linear-gradient(135deg, #b6ffc8fd 0%, hsl(197, 100%, 79%) 100%);
+}
+.citata {
+	background-color: antiquewhite;
+	border-radius: 5px;
+	border-left: 5px solid #24c1ff;
+	margin-top: 20px;
+	padding: 10px;
+	
+}
+.opros {
+	text-align: center;
+	color: #333333;
+	font-size: 20px;
+	background-image: url('/images/oblaka.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 7pt;
+	text-shadow: 0 0 25px rgb(0, 0, 0);
+	border-radius: 5px;
+	margin-top: 20px;
+	border: 1px solid #333333;
+	transition: all 1s ease;
+}
+.opros a {
+	color: #333333;
+}
+.contact img{
+	display: block;
+	max-width: 70px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 2px solid #333333;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+.contact img:hover{
+	border: 2px solid #ffffff;
+	color: #ffffff;
+}
+.contact {
+	color: #333333;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+table.catalog tr p {
+	font-size: 22px;
+	text-align: left;
+	letter-spacing: 3px;
+	word-spacing: 12px;
+}
+td p::first-letter {
+ vertical-align: middle;
+ font-size: 30px;
+ background-color: #d8ff7d;
+ border-radius: 3px;
+}
+table.catalog tr h3 {
+    font-size: 35px;
+}
+table.catalog img {
+    width: 300px;
+    height: auto;
+}
+table.catalog td {
+    padding: 3pt;
+    text-align: center;}
+table.catalog img {
+	width: 300px;
+	margin-left: 50px;
+	border-radius: 10pt;
+}
+.catalog tr {
+	display: block;
+	background: rgba(255, 255, 255, 0.281);
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	transition: all 0.3s ease;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.catalog tr:hover {
+	background: rgba(255, 255, 255, 0.521);
+	transform: translateY(-3px);
+	box-shadow: 10px 10px #3333338a;
+	transform: scale(1.01);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/*ТАБЛИЦА*/
+table.catalog tr p {
+    font-size: 22px;
+		text-align: left;
+		letter-spacing: 3px;
+		word-spacing: 12px;
+}
+td p::first-letter {
+ vertical-align: middle;
+ font-size: 30px;
+ background-color: #d8ff7d;
+ border-radius: 3px;
+}
+table.catalog tr h3 {
+    font-size: 35px;
+}
+table.catalog td {
+    padding: 3pt;
+		vertical-align: top;
+    text-align: center;}
+table.catalog img {
+	width: 300px;
+	height: 250px;
+	border-radius: 10pt;
+	margin-left: 0px;
+}
+.data {
+	text-align: right;
+	font-style: italic;
+	font-size: 15pt;
+}
+.podrobnee {
+	text-align: center;
+	margin-top: 10px;
+	
+}
+
+.glavnaya {font-size: 20pt;
+	padding-left: 50pt;}
+
+table.price-list th, table.price-list td {
+		padding: 2pt;
+		text-align: center;
+}
+table.price-list {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.uptable {background-color: #24c1ff;
+border-radius: 5px;
+font-size: 20px;}
+.price {background-color: #9dffb5;
+border-radius: 5px;
+font-size: 20px;}
+.tovar {background-color: #b3ff87;
+border-radius: 5px;
+font-size: 20px;}
+.eda {background-color: rgb(255, 255, 255);
+border-radius: 5px;
+font-size: 20px;}
+
+p.greeting { font-size: 20pt;}
+
+h2 {text-align: center;
+	font-size: 25pt;
+	letter-spacing: 4pt;
+}
+li p {
+	font-size: 20pt;
+	
+}
+ol li {
+	list-style-type: upper-roman;
+	padding-right: 80pt;
+}
+.sostav {
+	font-size: 18px;
+	word-spacing: 10px;
+}
+.ssylka {
+	color: #333333;
+	background-color: #89deff;
+	border: 1px solid #333333;
+	border-radius: 10pt;
+	margin: 0 10px;
+	font-size: 12pt;
+	transition: all 0.5s ease;
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+}
+.ssylka:hover, .vverh:hover, form button:hover {
+		color: #ffffff;
+		background-color: #c1ffd0;
+    text-shadow: 0 10px 25px rgb(0, 0, 0);
+}
+.ssylka:hover a {
+	color: #ffffff;
+	text-shadow: 0 10px 25px rgb(0, 0, 0);
+}
+.vverh {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 100px;
+	background-color: #89deff;
+	border: 1px solid #333333;
+	border-radius: 5px;
+	color: #333333;
+}
+
+form select option:checked {
+    background-color: #24c1ff;
+    color: white;
+		border-radius: 5pt;
+}
+form select option:hover {
+    background-color: #9dffb5;
+    color: #333333;
+		border-radius: 5pt;
+}
+
+ul li::marker {
+ font-size: 150%;
+ color: #24c1ff;
+}
+
+input[name="agree"] {
+    accent-color: rgb(115, 255, 110);
+}
+input[name="package"] {
+    accent-color: rgb(115, 255, 110);
+}
+
+form button {
+	color: #333333;
+	background-color: #89deff;
+	border: 1px solid #333333;
+	border-radius: 5pt;
+	font-size: 15pt;
+	transition: all 0.5s ease;
+	text-align: center;
+	width: 100%;
+	letter-spacing: 3pt;
+	padding: 5px;
+}
+form select option:checked {
+    background-color: #24c1ff;
+    color: white;
+		border-radius: 5pt;
+}
+form select option:hover {
+    background-color: #9dffb5;
+    color: #333333;
+		border-radius: 5pt;
+}
+form {
+ width: min-content;
+ padding: 0 10pt;
+ margin-bottom: 10pt;
+ border: thin dotted orange;
+ border-radius: 5pt;
+ margin: auto;
+}
+
+form input,
+form textarea,
+form select {
+ font: 12pt monospace;
+ border: medium solid rgb(115, 255, 110);
+ border-radius: 5pt;
+ padding: 5pt;
+}
+summary {
+	font-size: 15px;
+}
